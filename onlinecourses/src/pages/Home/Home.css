@@ -1,0 +1,67 @@
+#cardContent{
+    padding: 100px;
+}
+
+.card{
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    background-color: #f1faf9;
+}
+
+.card:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.cardTitle{
+    font-weight: 700;
+    font-size: x-large;
+    border-inline: inherit;
+    border-block: inherit;
+    border-radius: 20px;
+    border-block-color: black;
+    border-inline-color: black;
+    border-block-end-width: unset;
+    border-inline-end-width: unset;
+}
+
+.img{
+    border-radius: 20px;
+}
+
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  margin-top: -100px;
+  left: 0;
+  background-color: rgba(0,0,0,.4);
+  opacity: 0.5;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+}
+
+.title{
+    position: relative;
+    align-items: center;
+    padding-top: 245px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 2000;
+}
+
+.button{
+    width: max-content;
+    margin: auto;
+    background-color: #a19f98;
+    border: none;
+}
+
+.button:hover{
+    background-color: #614736;
+}
