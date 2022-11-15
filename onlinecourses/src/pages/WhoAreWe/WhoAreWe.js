@@ -24,7 +24,7 @@ function WhoAreWe() {
         <p
           style={{
             position: "relative",
-            marginTop: 286,
+            marginTop: 320,
             marginBottom: 80,
             textAlign: "center",
             fontFamily: "Monserrat",

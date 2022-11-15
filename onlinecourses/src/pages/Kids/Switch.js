@@ -22,7 +22,7 @@ const PriceSwitch = () => {
           checked={checked}
           inputProps={{ "aria-label": "controlled" }}
           size="medium"
-          style={{ color: "#b16562"}}
+          style={{ color: "#b16562", bgColor: "transparent"}}
         />
         <span>Birebir Eğitim Paketleri</span>
       </label>
